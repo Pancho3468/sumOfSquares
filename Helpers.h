@@ -1,5 +1,6 @@
+#include <cmath>
 
 int Sum(int NamberOne, int NamberTwo)
 {
-	return (NamberOne + NamberTwo) / 2;
+	return pow( (NamberOne + NamberTwo) , 2);
 }
